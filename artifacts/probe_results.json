@@ -1,0 +1,25 @@
+{
+  "model": "vit_small_patch14_dinov2.lvd142m",
+  "grouped": {
+    "fold_macro_f1": [
+      0.6439,
+      0.8984,
+      0.6507
+    ],
+    "frame_macro_f1": 0.7827,
+    "frame_macro_f1_std": 0.1184,
+    "session_macro_f1": 0.8078,
+    "session_accuracy": 0.85
+  },
+  "random": {
+    "fold_macro_f1": [
+      0.9923,
+      0.9968,
+      0.9849
+    ],
+    "frame_macro_f1": 0.9914,
+    "frame_macro_f1_std": 0.0049,
+    "session_macro_f1": 1.0,
+    "session_accuracy": 1.0
+  }
+}

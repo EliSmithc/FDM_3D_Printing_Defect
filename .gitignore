@@ -1,4 +1,19 @@
-#dataset
-dataset
+# Raw dataset and derived image cache (large; re-derivable from Kaggle + scripts)
+dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
 
 .DS_Store
+
+# Agent context and personal notes, local only
+CLAUDE.md
+NOTES.md
+
